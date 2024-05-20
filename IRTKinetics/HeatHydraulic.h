@@ -5,12 +5,13 @@ class HeatHydraulic
 {
 public:
     HeatHydraulic();
-    HeatHydraulic(double W_, double G_, double C_, double Tin_, double TOut_,  std::vector<Point2D> Density);
+    HeatHydraulic(double W_, double G_, double C_, double Tin_, double Tout_,  std::vector<Point2D> Density);
     double t;
     double W; 
     double G;   
     double C;
     double Tin;
     double Tout;
-    void CalculateNextStep();
+    double Tav;
+    void CalculateNextStep(float step);
 };
