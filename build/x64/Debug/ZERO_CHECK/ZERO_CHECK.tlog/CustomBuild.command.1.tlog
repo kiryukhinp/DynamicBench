@@ -1,6 +1,6 @@
-^C:\GITPROJECTS\BENCHMARKSKIN\BUILD\CMAKEFILES\89A125EBA574B3C239DE2821D44FE2C1\GENERATE.STAMP.RULE
+^C:\GITPROJECTS\DYNAMICBENCH\BUILD\CMAKEFILES\641435FC099CCE7A78F93795D8726126\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/GitProjects/BenchmarksKin -BC:/GitProjects/BenchmarksKin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitProjects/BenchmarksKin/build/udplib.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/GitProjects/DynamicBench -BC:/GitProjects/DynamicBench/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitProjects/DynamicBench/build/udplib.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

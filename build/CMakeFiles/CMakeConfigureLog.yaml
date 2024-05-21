@@ -24,9 +24,9 @@ events:
       The output was:
       0
       Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
-      Сборка начата 20.05.2024 16:06:19.
+      Сборка начата 21.05.2024 14:04:14.
       
-      Проект "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdC.tlog\\".
@@ -38,7 +38,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -46,13 +46,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.64
+      Прошло времени 00:00:00.50
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+        C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -78,9 +78,9 @@ events:
       The output was:
       0
       Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
-      Сборка начата 20.05.2024 16:06:20.
+      Сборка начата 21.05.2024 14:04:15.
       
-      Проект "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdCXX.tlog\\".
@@ -92,7 +92,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -100,7 +100,7 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+        C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-ceutyy"
-      binary: "C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-ceutyy"
+      source: "C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-pkoriy"
+      binary: "C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-pkoriy"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -135,38 +135,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-ceutyy
+        Change Dir: C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-pkoriy
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0f31f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
-        Сборка начата 20.05.2024 16:06:21.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d88b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 21.05.2024 14:04:15.
         
-        Проект "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ceutyy\\cmTC_0f31f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pkoriy\\cmTC_d88b9.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_0f31f.dir\\Debug\\".
-          Создание каталога "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ceutyy\\Debug\\".
-          Создание каталога "cmTC_0f31f.dir\\Debug\\cmTC_0f31f.tlog\\".
+          Создание каталога "cmTC_d88b9.dir\\Debug\\".
+          Создание каталога "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pkoriy\\Debug\\".
+          Создание каталога "cmTC_d88b9.dir\\Debug\\cmTC_d88b9.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_0f31f.dir\\Debug\\cmTC_0f31f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_0f31f.dir\\Debug\\cmTC_0f31f.tlog\\unsuccessfulbuild".
+          Создание "cmTC_d88b9.dir\\Debug\\cmTC_d88b9.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_d88b9.dir\\Debug\\cmTC_d88b9.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f31f.dir\\Debug\\\\" /Fd"cmTC_0f31f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d88b9.dir\\Debug\\\\" /Fd"cmTC_d88b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32541 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f31f.dir\\Debug\\\\" /Fd"cmTC_0f31f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d88b9.dir\\Debug\\\\" /Fd"cmTC_d88b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ceutyy\\Debug\\cmTC_0f31f.exe" /INCREMENTAL /ILK:"cmTC_0f31f.dir\\Debug\\cmTC_0f31f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-ceutyy/Debug/cmTC_0f31f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-ceutyy/Debug/cmTC_0f31f.lib" /MACHINE:X64  /machine:x64 cmTC_0f31f.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0f31f.vcxproj -> C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ceutyy\\Debug\\cmTC_0f31f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pkoriy\\Debug\\cmTC_d88b9.exe" /INCREMENTAL /ILK:"cmTC_d88b9.dir\\Debug\\cmTC_d88b9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-pkoriy/Debug/cmTC_d88b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-pkoriy/Debug/cmTC_d88b9.lib" /MACHINE:X64  /machine:x64 cmTC_d88b9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d88b9.vcxproj -> C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pkoriy\\Debug\\cmTC_d88b9.exe
         FinalizeBuildStatus:
-          Файл "cmTC_0f31f.dir\\Debug\\cmTC_0f31f.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_0f31f.dir\\Debug\\cmTC_0f31f.tlog\\cmTC_0f31f.lastbuildstate".
-        Сборка проекта "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ceutyy\\cmTC_0f31f.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_d88b9.dir\\Debug\\cmTC_d88b9.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d88b9.dir\\Debug\\cmTC_d88b9.tlog\\cmTC_d88b9.lastbuildstate".
+        Сборка проекта "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pkoriy\\cmTC_d88b9.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.43
+        Прошло времени 00:00:00.35
         
       exitCode: 0
   -
@@ -178,8 +178,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-p9lzto"
-      binary: "C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-p9lzto"
+      source: "C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-rg9cyc"
+      binary: "C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-rg9cyc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -188,32 +188,32 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-p9lzto
+        Change Dir: C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-rg9cyc
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4992e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
-        Сборка начата 20.05.2024 16:06:21.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_66223.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 21.05.2024 14:04:16.
         
-        Проект "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9lzto\\cmTC_4992e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rg9cyc\\cmTC_66223.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_4992e.dir\\Debug\\".
-          Создание каталога "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9lzto\\Debug\\".
-          Создание каталога "cmTC_4992e.dir\\Debug\\cmTC_4992e.tlog\\".
+          Создание каталога "cmTC_66223.dir\\Debug\\".
+          Создание каталога "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rg9cyc\\Debug\\".
+          Создание каталога "cmTC_66223.dir\\Debug\\cmTC_66223.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_4992e.dir\\Debug\\cmTC_4992e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_4992e.dir\\Debug\\cmTC_4992e.tlog\\unsuccessfulbuild".
+          Создание "cmTC_66223.dir\\Debug\\cmTC_66223.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_66223.dir\\Debug\\cmTC_66223.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4992e.dir\\Debug\\\\" /Fd"cmTC_4992e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66223.dir\\Debug\\\\" /Fd"cmTC_66223.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32541 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4992e.dir\\Debug\\\\" /Fd"cmTC_4992e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66223.dir\\Debug\\\\" /Fd"cmTC_66223.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9lzto\\Debug\\cmTC_4992e.exe" /INCREMENTAL /ILK:"cmTC_4992e.dir\\Debug\\cmTC_4992e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-p9lzto/Debug/cmTC_4992e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GitProjects/BenchmarksKin/build/CMakeFiles/CMakeScratch/TryCompile-p9lzto/Debug/cmTC_4992e.lib" /MACHINE:X64  /machine:x64 cmTC_4992e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4992e.vcxproj -> C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9lzto\\Debug\\cmTC_4992e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rg9cyc\\Debug\\cmTC_66223.exe" /INCREMENTAL /ILK:"cmTC_66223.dir\\Debug\\cmTC_66223.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-rg9cyc/Debug/cmTC_66223.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GitProjects/DynamicBench/build/CMakeFiles/CMakeScratch/TryCompile-rg9cyc/Debug/cmTC_66223.lib" /MACHINE:X64  /machine:x64 cmTC_66223.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_66223.vcxproj -> C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rg9cyc\\Debug\\cmTC_66223.exe
         FinalizeBuildStatus:
-          Файл "cmTC_4992e.dir\\Debug\\cmTC_4992e.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_4992e.dir\\Debug\\cmTC_4992e.tlog\\cmTC_4992e.lastbuildstate".
-        Сборка проекта "C:\\GitProjects\\BenchmarksKin\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9lzto\\cmTC_4992e.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_66223.dir\\Debug\\cmTC_66223.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_66223.dir\\Debug\\cmTC_66223.tlog\\cmTC_66223.lastbuildstate".
+        Сборка проекта "C:\\GitProjects\\DynamicBench\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rg9cyc\\cmTC_66223.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0

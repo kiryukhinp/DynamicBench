@@ -1,4 +1,5 @@
-C:\GitProjects\BenchmarksKin\IRTKinetics\main.cpp;C:\GitProjects\BenchmarksKin\build\irtkin.dir\Debug\main.obj
-C:\GitProjects\BenchmarksKin\IRTKinetics\Point2D.cpp;C:\GitProjects\BenchmarksKin\build\irtkin.dir\Debug\Point2D.obj
-C:\GitProjects\BenchmarksKin\IRTKinetics\ReactorState.cpp;C:\GitProjects\BenchmarksKin\build\irtkin.dir\Debug\ReactorState.obj
-C:\GitProjects\BenchmarksKin\IRTKinetics\ReactorUtilits.cpp;C:\GitProjects\BenchmarksKin\build\irtkin.dir\Debug\ReactorUtilits.obj
+C:\GitProjects\DynamicBench\IRTKinetics\main.cpp;C:\GitProjects\DynamicBench\build\irtkin.dir\Debug\main.obj
+C:\GitProjects\DynamicBench\IRTKinetics\Point2D.cpp;C:\GitProjects\DynamicBench\build\irtkin.dir\Debug\Point2D.obj
+C:\GitProjects\DynamicBench\IRTKinetics\ReactorState.cpp;C:\GitProjects\DynamicBench\build\irtkin.dir\Debug\ReactorState.obj
+C:\GitProjects\DynamicBench\IRTKinetics\ReactorUtilits.cpp;C:\GitProjects\DynamicBench\build\irtkin.dir\Debug\ReactorUtilits.obj
+C:\GitProjects\DynamicBench\IRTKinetics\HeatHydraulic.cpp;C:\GitProjects\DynamicBench\build\irtkin.dir\Debug\HeatHydraulic.obj

@@ -1,9 +1,9 @@
 # CMake generation dependency list for this directory.
-C:/GitProjects/BenchmarksKin/CMakeLists.txt
-C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
-C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CMakeCXXCompiler.cmake
-C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
-C:/GitProjects/BenchmarksKin/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
+C:/GitProjects/DynamicBench/CMakeLists.txt
+C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
+C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CMakeCXXCompiler.cmake
+C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
+C:/GitProjects/DynamicBench/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c
 C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake

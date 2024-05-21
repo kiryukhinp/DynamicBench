@@ -10,5 +10,5 @@ endif(WIN32)
 set( SRC "IRTKinetics/")
 set (CMAKE_BUILD_TYPE Debug)
 
-add_executable(irtkin ${SRC}main.cpp ${SRC}Point2D.cpp ${SRC}ReactorState.cpp ${SRC}ReactorUtilits.cpp)
+add_executable(irtkin ${SRC}main.cpp ${SRC}Point2D.cpp ${SRC}ReactorState.cpp ${SRC}ReactorUtilits.cpp ${SRC}HeatHydraulic.cpp)
 # add_executable(corts ${SRC}testmain.cpp ${SRC}ControlRod.hpp ${SRC}Point2D.cpp)

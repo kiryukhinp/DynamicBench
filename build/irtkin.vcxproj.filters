@@ -1,25 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\GitProjects\BenchmarksKin\IRTKinetics\main.cpp">
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitProjects\BenchmarksKin\IRTKinetics\Point2D.cpp">
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\Point2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitProjects\BenchmarksKin\IRTKinetics\ReactorState.cpp">
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\ReactorState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitProjects\BenchmarksKin\IRTKinetics\ReactorUtilits.cpp">
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\ReactorUtilits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\HeatHydraulic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\GitProjects\BenchmarksKin\CMakeLists.txt" />
+    <CustomBuild Include="C:\GitProjects\DynamicBench\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{BDBFF512-8699-3514-B3F8-B85E6A53CF70}</UniqueIdentifier>
+      <UniqueIdentifier>{D3578FFC-077A-3C8B-ADA8-7EB1EB203AB1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
