@@ -4,54 +4,10 @@
 #include <iomanip>
 #include "ReactorState.h"
 #include "HeatHydraulic.h"
-
-void output(std::string const& name, std::vector<Point2D> row)
-{
-	int SolutionSize= row.size();
-	std::ofstream fout(name);
-	for (int i = 0; i < SolutionSize; i++)
-	{
-		fout << std::setw(10) << row[i].X << ' '<< row[i].Y << std::endl;
-	}
-}
+#include "HHUtilits.h"
+#include "Utilits.hpp"
 
 
-Point2D GetNearstLowerValue(double t, std::vector<Point2D> row)
-{
-
-  if (row.size()>1)
-  {
-    for (int i = 0; i < row.size()-1; i++)
-      {
-        if (t >= row[i].X & t < row[i+1].X) return row[i];
-      }
-  return row[0];
-  }
-  
-}
-
-
-Point2D Lerp(float t, std::vector<Point2D> row)
-{
-  if (row.size()>1)
-  {
-    for (int i = 0; i < row.size(); i++)
-    {
-      if (t <= row[i].X) return Point2D((row[i].Y - row[i-1].Y)/(row[i].X - row[i-1].X)*t,t);
-    }
-  }
-  return row[0];
-}
-
-Point2D Search(double t, std::vector<Point2D> row)
-{
-   for (int i = 0; i < row.size(); i++)
-    {
-      if (t == row[i].X) 
-        return  row[i];
-    }  
-  return row[0];
-}
 int main()
 {    
     float t_start = 0;
@@ -64,9 +20,12 @@ int main()
     std::vector<Point2D> ro{Point2D(0.,0.),Point2D(1.,-0.005454), Point2D(4.,0.)};
     double LAM{ 6.8E-5 }, n0{ 1 }, W{2.5e6}, Tin0{45}, Tout0{50.95}, G{100};
 		float step{ (t_end - t_start) / Nt };  
+    std:: vector<Point2D> Dens = HHUtilits::ReadRowFromFile("WaterDensity");
     ReactorState reactor = ReactorState(beta,lam,LAM,1.,W,0,Tin0,Tout0,1000,1000,-1.0e-1,1,0);
-    HeatHydraulic Pool = HeatHydraulic(W,G,4200.,Tin0,Tout0,std::vector({Point2D(0,0)}));
+    HeatHydraulic Pool = HeatHydraulic(W,G,4200.,Tin0,Tout0,std::vector(Dens));
 
+    
+    
 
     for (int i = 0;  i < Nt; i++)
     {

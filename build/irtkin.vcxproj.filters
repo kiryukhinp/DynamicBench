@@ -16,6 +16,9 @@
     <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\HeatHydraulic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\GitProjects\DynamicBench\IRTKinetics\HHUtilits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\GitProjects\DynamicBench\CMakeLists.txt" />
