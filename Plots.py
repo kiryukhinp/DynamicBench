@@ -14,8 +14,8 @@ def WriteFromFile(filename):
 
 t = []
 n1 = []
-t = WriteFromFile('Test.txt')[0]
-n1 = WriteFromFile('Test.txt')[1]
+t = WriteFromFile('W.txt')[0]
+n1 = WriteFromFile('W.txt')[1]
 plt.plot(t,n1)
 
 plt.show()

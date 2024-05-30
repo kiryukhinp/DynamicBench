@@ -48,13 +48,25 @@ inline Point2D Lerp(float t, std::vector<Point2D> row)
   return row[0];
 }
 
-inline Point2D Search(double t, std::vector<Point2D> row)
+inline Point2D Search(double t, std::vector<Point2D> row, float eps)
 {
+  
    for (int i = 0; i < row.size(); i++)
     {
-      if (t == row[i].X) 
+      if (abs(3.54 - row[i].X)<=eps) std::cout<<t<<"   "<<3.54<<std::endl;
+      if (abs(t -row[i].X) <= eps) 
         return  row[i];
     }  
   return row[0];
+}
+
+inline std::vector<Point2D> Linespace(double x0, double x, double y0, double y, int num)
+{
+  std::vector<Point2D> result;
+  for (int i = 0; i <num+1; i++)
+  {
+    result.push_back(Point2D(x0 + (x-x0)/num*i, y0 + (y-y0)/num*i));
+  }
+  return result;
 }
 #endif

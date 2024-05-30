@@ -16,14 +16,16 @@ class ReactorState
 {
 public:
     ReactorState();
-    ReactorState(std::vector<double> &Beta_, std::vector<double> &Lam_, double const &LAM_, double const &Keff_0, double W, double const &Source,
+    ReactorState(std::vector<double> &Beta_, std::vector<double> &Lam_, double const &LAM_, double const &Keff_0, double W_nom, double const &Source,
                  double Tin, double Tout, double Din, double Dout, double RCWT_, double RCDW_, double _additionalReactivity);
 
     double N; // Neutron flux density in current time step
     double N0 = 1;
+    double W0;
     double t; // current time
     double T = -INFINITY;
     std::vector<Point2D> N_t;
+    std::vector<Point2D> W_t;
     double Keff;
     double AdditionalReactivity, AdditionalReactivityNew;
     bool bUnderCritic = false;

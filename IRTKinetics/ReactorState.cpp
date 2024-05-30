@@ -5,11 +5,12 @@ ReactorState::ReactorState()
 {
 }
 
-ReactorState::ReactorState(std::vector<double> &Beta_, std::vector<double> &Lam_, double const &LAM_, double const &Keff_0, double W, double const &Source,
+ReactorState::ReactorState(std::vector<double> &Beta_, std::vector<double> &Lam_, double const &LAM_, double const &Keff_0, double W_nom, double const &Source,
                            double Tin, double Tout, double Din, double Dout, double RCWT_, double RCDW_, double _additionalReactivity)
 {
     S = Source;
     Keff = Keff_0;
+    W0 = W_nom;
     if (Keff_0 < 1)
         bUnderCritic = true;
     Beta = Beta_;
@@ -64,6 +65,7 @@ void ReactorState::CalculateNextStep(double DeltaTime, CalculationType Type, dou
     t += DeltaTime;
     // T = DeltaTime/(log(N) - log(N_t.back().Y));
     N_t.push_back(Point2D(t, N));
+    W_t.push_back(Point2D(t, N*W0));
     Keff_t.push_back(Point2D(t, Keff));
     Index++;
     if (Index > 10000)
