@@ -40,7 +40,7 @@ int main()
       //{
       //    reactor.AdditionalReactivityNew = Search(reactor.t, KSUp, step/10).Y;
       //}
-      if (Search(reactor.t, Reactivity, step).Y >0)
+      if (abs(Search(reactor.t, Reactivity, step).Y) >0)
       {
           reactor.AdditionalReactivityNew = Search(reactor.t, Reactivity, step).Y;
           std::cout<<reactor.t<<"   "<<reactor.AdditionalReactivityNew<<std::endl;

@@ -53,9 +53,13 @@ inline Point2D Search(double t, std::vector<Point2D> row, float eps)
   
    for (int i = 0; i < row.size(); i++)
     {
-      if (abs(3.54 - row[i].X)<=eps) std::cout<<t<<"   "<<3.54<<std::endl;
+       
       if (abs(t -row[i].X) <= eps) 
+      {
+        std::cout<<t<<"   "<<row[i].X<<std::endl;
         return  row[i];
+      }
+        
     }  
   return row[0];
 }
