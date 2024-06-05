@@ -17,15 +17,15 @@ int main()
     float t = 10;
     int Nt = 100000;  
 
-    std::vector<double> lam{0.01332, 0.0326, 0.121, 0.304, 0.854, 2.868}, 
-                        beta{2.40212e-4, 1.23990e-3, 1.18371e-3,2.65399e-3,1.08810e-3, 4.55802e-4};
+    std::vector<double> beta{0.000265, 0.00135, 0.001284, 0.002851, 0.00275, 0.001185, 0.000492}, 
+                        lam{0.013336, 0.032733, 0.120767, 0.302778, 0.849561, 2.85297};
     std::vector<Point2D> ro{Point2D(0.,0.),Point2D(1.,-0.005454), Point2D(4.,0.)};
-    double LAM{ 6.8E-5 }, n0{ 1 }, W{2.5e6}, Tin0{45}, Tout0{50.95}, G{100};
+    double LAM{ 5.8E-5 }, n0{ 1 }, W{2.5e6}, Tin0{45}, Tout0{50.95}, G{100};
 		float step{ (t_end - t_start) / Nt };  
-    std:: vector<Point2D> Dens = HHUtilits::ReadRowFromFile("WaterDensity");
+    std:: vector<Point2D> Dens = HHUtilits::ReadRowFromFile("../Data/WaterDensity");
     HeatHydraulic Pool = HeatHydraulic(W,G,4200.,Tin0,Tout0,std::vector(Dens));
     std::vector<Point2D> KSUp = Linespace(1., 3.5, 0., 0.175, 100);
-    std::vector<Point2D> Reactivity = HHUtilits::ReadRowFromFile("Reactivity.txt");
+    std::vector<Point2D> Reactivity = HHUtilits::ReadRowFromFile("../Data/Reactivity.txt");
     ReactorState reactor = ReactorState(beta,lam,LAM,1.,W,0,Tin0,Tout0,Pool.Dens,Pool.Dens,0,0,0);//-1.23e-5, 0.000277,0);
 
 

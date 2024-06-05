@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import os
-os.chdir('build\Debug')
+os.chdir('build')
 def WriteFromFile(filename):
     infile = open(filename, 'r')
     x = []
@@ -12,10 +12,13 @@ def WriteFromFile(filename):
         y.append(float(str[1]))
     return (x,y)
 
-t = []
+t1 = []
 n1 = []
-t = WriteFromFile('W.txt')[0]
+t1 = WriteFromFile('W.txt')[0]
 n1 = WriteFromFile('W.txt')[1]
-plt.plot(t,n1)
+t2 = WriteFromFile('../Data/Reference.txt')[0]
+n2 = WriteFromFile('../Data/Reference.txt')[1]
+plt.plot(t1,n1)
+plt.plot(t2,n2)
 
 plt.show()

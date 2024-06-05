@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\main.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\main.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\main.cpp.obj"
+},
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\Point2D.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\Point2D.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\Point2D.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\Point2D.cpp.obj"
+},
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\ReactorState.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\ReactorState.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\ReactorState.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\ReactorState.cpp.obj"
+},
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\ReactorUtilits.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\ReactorUtilits.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\ReactorUtilits.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\ReactorUtilits.cpp.obj"
+},
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\HeatHydraulic.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\HeatHydraulic.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\HeatHydraulic.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\HeatHydraulic.cpp.obj"
+},
+{
+  "directory": "D:/GitProjects/DynamicBench/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\HostX86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /std:c++latest /FoCMakeFiles\\irtkin.dir\\IRTKinetics\\HHUtilits.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\GitProjects\\DynamicBench\\IRTKinetics\\HHUtilits.cpp",
+  "file": "D:\\GitProjects\\DynamicBench\\IRTKinetics\\HHUtilits.cpp",
+  "output": "CMakeFiles\\irtkin.dir\\IRTKinetics\\HHUtilits.cpp.obj"
+}
+]
